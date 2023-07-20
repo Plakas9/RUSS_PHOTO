@@ -1,0 +1,122 @@
+
+ul{
+   list-style: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+/*code for firt segment*/
+
+.Aplaceholder{
+    width: 500px;
+    height: auto;
+
+}
+
+.links{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+.logoText, .flexMe{
+    color: #f9faf8;
+    
+}
+
+.flexMe{
+    justify-content: space-between;
+    padding: 4px;
+    gap: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Hero{
+    color: white;
+    background-color: #1f2937;
+    
+}
+.subtext{
+    margin: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+._sub{
+    
+    width:300px;
+}
+.Asignup{
+    background-color: #3882F6;
+    color:white;
+    
+    display: block;
+    border-radius: 12px;
+    padding: 8px 16px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    text-align: start;
+    margin-top: 16px;
+}
+
+/*Code for second Segment*/
+
+.BHeader{
+    display: flex;
+    justify-content: center;
+    margin: 16px auto;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+}
+.quote{
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.author{
+    display: flex;
+    align-items: end;
+}
+
+.signup{
+
+    margin: 40px;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    background-color: #3882F6;
+    color:#f9faf8;
+    justify-content: space-between;
+}
+.Bsignup{
+    align-self: center;
+    background-color: #3882F6;
+    color:white;
+    
+    display: block;
+    border-radius: 12px;
+    padding: 8px 16px;
+    border:#f9faf8;
+    border: 2px #f9faf8;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer{
+    padding: 12px;
+    text-align: center;
+    background-color: #1f2937 ;
+    color: #f9faf8;
+}
