@@ -7,6 +7,11 @@ body{
     flex-direction: column;
     margin: 0px;
 }
+a{
+    color: #f9faf8;
+    text-decoration: none;
+
+}
 
 /*code for firt segment*/
 
@@ -65,6 +70,10 @@ body{
     margin-top: 16px;
 }
 
+.contrast{
+    color:#b0b0b0;
+}
+
 /*Code for second Segment*/
 
 .BHeader{
@@ -109,14 +118,28 @@ body{
     border-radius: 12px;
     padding: 8px 16px;
     border:#f9faf8;
-    border: 2px #f9faf8;
+    border: 2px solid #f9faf8;
     text-align: center;
     text-decoration: none;
 }
+.smaller{
+    border: 5px solid #3882F6;
+    
+}
+
+.author{
+    font-size: medium;
+    font-weight: bold;
+}
+
+/*footer*/ 
 
 .footer{
     padding: 12px;
     text-align: center;
     background-color: #1f2937 ;
     color: #f9faf8;
+}
+.test{
+    justify-content: flex-end;
 }
