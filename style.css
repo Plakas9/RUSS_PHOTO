@@ -3,9 +3,12 @@ ul{
    list-style: none;
 }
 body{
+
     display: flex;
+    justify-content:flex-end;
     flex-direction: column;
     margin: 0px;
+    padding-bottom:0px ;
 }
 a{
     color: #f9faf8;
@@ -44,13 +47,14 @@ a{
 
 .Hero{
     color: white;
-    background-color: #1f2937;
+    background-color: #340435;
     
 }
 .subtext{
     margin: 40px;
     display: flex;
     justify-content: space-around;
+    
 }
 ._sub{
     
@@ -86,8 +90,11 @@ a{
 
 .info{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    gap: 16px;
+    flex-wrap:wrap;
 }
+
 .quote{
     justify-content: center;
     display:flex;
@@ -105,7 +112,7 @@ a{
     border-radius: 12px;
     padding: 24px;
     display: flex;
-    background-color: #3882F6;
+    background-color: #340435;
     color:#f9faf8;
     justify-content: space-between;
 }
@@ -123,10 +130,21 @@ a{
     text-decoration: none;
 }
 .smaller{
-    border: 5px solid #3882F6;
+    border: 5px solid #340435;
+    height: 200px;
+    width: auto;
+    border-radius: 25px ;
+}
+.group{
+    display: flex;
+    width: min-content;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Bsubtext{
     
 }
-
 .author{
     font-size: medium;
     font-weight: bold;
@@ -135,10 +153,12 @@ a{
 /*footer*/ 
 
 .footer{
+    display: flex;
+    justify-content: center;
     padding: 12px;
-    text-align: center;
     background-color: #1f2937 ;
     color: #f9faf8;
+    
 }
 .test{
     justify-content: flex-end;
